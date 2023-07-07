@@ -16,6 +16,7 @@ header{
     align-items: center;
     color: #FFFFFF;
     font-weight: 800px;
+    font-family: 'Montserrat', sans-serif;
 }
 nav ul{
     list-style: none;
@@ -32,7 +33,7 @@ nav ul li a {
     color: #FFFFFF;
     text-decoration: none;
 }
-.sectionMain{
+.section-main{
     background-color: #18BC9C;
     display: flex;
     flex-direction: column;
@@ -45,12 +46,12 @@ nav ul li a {
     align-items: center;
     flex-direction: column;
 }
-.aboutM{
+.section-about{
     background-color: #18BC9C;
    display: flex;
    height: 100vh;
 }
-.contact{
+.section-contact{
     background-color: #FFFFFF;
     display: flex;
     height: 100vh;
@@ -58,12 +59,34 @@ nav ul li a {
 .footer{
     background-color:#2c3e50 ;
 }
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 45px;
-    font-weight: 900; /* Ajusta el grosor del texto */
-    letter-spacing: -3px; /* Reduce el espaciado entre letras */
-    /* line-height: 1; Ajusta la altura de línea */
-    text-transform: uppercase; /* Convierte el texto en mayúsculas :0 */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+.about__title{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.section__icon{
+    position: relative;
+}
+
+.section__icon::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 18px;
+    left: 0;
+    top:0;
+    bottom: 0;
+}
+
+.section__icon::after{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 18px;
+    right: 0;
+    top:0;
+    bottom: 0;
 }

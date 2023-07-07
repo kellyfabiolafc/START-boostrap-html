@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frelancer</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family= Montserrat|Inria Sans |Open Sans|Jost|Rubik|Phudu|kosugi-maru|Styles|kosugi-maru|Lato|Quicksand">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Inria Sans |Open Sans|Jost|Rubik|Phudu|kosugi-maru|Styles|kosugi-maru|Lato|Quicksand">
     <!-- Links de hojas de estilo -->
     <link rel="stylesheet" href="/stylesheet/index.css">
-    <link rel="stylesheet" href="/stylesheet/tablet.css">
+    <link rel="stylesheet" href="/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+
     <link rel="stylesheet" href="/stylesheet/destopck.css">
 <body>
     <header>
@@ -21,14 +24,14 @@
         </nav>
     </header>
     
-    <section class="sectionMain"> 
+    <section class="section-main"> 
         <picture><img src="/images/profile.png"></picture>
         <h1>START BOOSTRAP</h1>
         <img src="/images/imgEstrella.png">
         <p>Web Developer - Graphic Artist - User Experience Designer</p>
     </section>
    
-    <section id="portafolio" class="portfolio">
+    <section id="portafolio" class="section-portfolio">
         <h1>PORTFOLIO</h1>
         <img>
        <div>
@@ -40,10 +43,11 @@
         <img src="/images/submarine.png">
        </div>
     </section>
-    <section id="about" class="about">
-        <h1>ABOUT</h1>
-        <img>
-        <div>
+    <section id="about" class="section-about">
+        <h1 class="about__title">About</h1>
+        <div class="section__icon">
+            <i class="fa-solid fa-star fa-lg"></i>
+        </div>
          <p>Frelancer is a free boostrap theme created by Start Boostrap. The download includes the complete source files including 
             HTML ,CSS and JavaScript as well as optional LESS stylesheets easy customization.
          </p>
@@ -53,7 +57,7 @@
         </div>
         <button>Download Theme</button>
     </section>
+    <section id="contact" class="section-contact"></section>
     <footer></footer>
-    <section id="contact" class="contact"></section>
 </body>
 </html>
