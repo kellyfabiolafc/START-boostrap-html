@@ -12,9 +12,10 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Montserrat|Inria Sans |Open Sans|Jost|Rubik|Phudu|kosugi-maru|Styles|kosugi-maru|Lato|Quicksand">
     <!-- Links de hojas de estilo -->
-    <link rel="stylesheet" href="/stylesheet/index.css">
-    <link rel="stylesheet" href="/stylesheet/tablet.css" media="screen and (min-width: 760px)">
-    <link rel="stylesheet" href="/stylesheet/destopck.css">
+    <link rel="stylesheet" href="./stylesheet/normalize.css">
+    <link rel="stylesheet" href="./stylesheet/index.css">
+    <link rel="stylesheet" href="./stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./stylesheet/destopck.css">
 </head>
 
 <body>
@@ -54,9 +55,9 @@
     <section id="about" class="section-about">
         <h1 class="section-about__title">About</h1>
         <picture class="section-about__icon">
-            <img  src="/images/estrella-blanca.png">
+            <img src="/images/estrella-blanca.png">
         </picture>
-        <div class="section-about__text">
+        <div class="section-about__text container">
             <p class="section-about__text">Frelancer is a free boostrap theme created by Start Boostrap. The download
                 includes the complete source files
                 including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
@@ -68,27 +69,47 @@
         </div>
         <button class="button">
             <span class="icon">
-              <i class="fa fa-download"></i>
+                <i class="fa fa-download"></i>
             </span>
             Download Theme
-          </button>
+        </button>
     </section>
 
     <section id="contact" class="section-contact">
         <h1 class="section-contact__title">CONTACT ME</h1>
         <picture class="section-contact__icon">
-          <img src="/images/estrella-gris.png">
+            <img src="/images/estrella-gris.png">
         </picture>
-        <form class="section-contact__form">
-          <input type="text" class="input-field" placeholder="Name">
-          <input type="text" class="input-field" placeholder="Email Address">
-          <input type="text" class="input-field" placeholder="Phone Number">
-          <input type="text" class="input-field" placeholder="Message">
-          <button class="button-line">Send</button>
+        <form class="section-contact__form container">
+            <input type="text" class="input-field" placeholder="Name">
+            <input type="text" class="input-field" placeholder="Email Address">
+            <input type="text" class="input-field" placeholder="Phone Number">
+            <input type="text" class="input-field" placeholder="Message">
+            <button class="button-line">Send</button>
         </form>
-        
+
     </section>
-    <footer></footer>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                              avanza limda                               -->
+    <!-- ----------------------------------------------------------------------- -->
+    <footer class="footer">
+        <div class="footer-location">
+            <h1 class="footer-title">LOCATION </h1>
+            <p>3481 Melrose Place Beverly Hills, CA 90210</p>
+        </div>
+        <div class="footer-around">
+            <h1 class="footer-title">AROUND THE  </h1>h1 
+            <div class="footer-container__webs">
+                <a href="#" target="_blank"><i class="fab fa-facebook white-icon"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram white-icon"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter white-icon"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin white-icon"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-codepen white-icon"></i></a>
+              </div>
+                        <div class="footer-about">
+            <h1>AB class="footer-title"OUT FREELANCER </h1>
+        </div>
+    </footer>
 </body>
 
-</html>
+</html>B
