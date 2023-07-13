@@ -1,0 +1,16 @@
+{
+  "name": "start-boostraps",
+  "private": true,
+  "version": "0.0.0",
+  "main": "src/index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev src",
+    "build": "vite build",
+    "preview": "vite preview",
+    "create-redirects": "echo /* /index.html 200 > dist/_redirects"
+  },
+  "devDependencies": {
+    "vite": "^4.4.0"
+  }
+}
